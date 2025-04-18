@@ -72,7 +72,11 @@ const Section1 = () => {
         </div>
       </div>
       <div className="h-[50vh] md:h-full md:w-[50%] ">
-        <img src="/images/illustration-1.svg" alt="" className="h-full" />
+        <img
+          src="/images/illustration-1.svg"
+          alt="illustration"
+          className="h-full"
+        />
       </div>
     </div>
   );

@@ -2,10 +2,15 @@ import React from "react";
 
 const Section2 = () => {
   return (
-    <div className="relative bg-[#f8f8fe]">
-      {/* Top curve SVG */}
+    <div className="relative bg-[#f8f8fe] mt-10">
       <div className="bg-white">
-        <div className="bg-[#f8f8fe]   h-[60px]  md:h-[120px] rounded-t-[100%]"></div>
+        <div className="">
+          <img
+            src="/images/bg-curve-desktop.svg"
+            alt=""
+            className="curve-desktop"
+          />
+        </div>
       </div>
 
       {/* Section content */}
@@ -25,7 +30,7 @@ const Section2 = () => {
           </p>
           <a
             href="#"
-            className="text-[#3c9f8f] underline text-sm font-opensans flex items-center gap-1"
+            className="text-[hsl(170,45%,43%)] underline text-sm font-opensans flex items-center gap-1"
           >
             See how Fylo works
             <img src="/images/icon-arrow.svg" alt="arrow" className="w-3" />
@@ -34,7 +39,8 @@ const Section2 = () => {
           {/* Testimonial */}
           <div className="bg-white shadow-md p-5 rounded-md mt-6 text-left max-w-[400px] mx-auto md:mx-0">
             <p className="text-sm font-opensans text-[16px] mb-4 text-gray-500 leading-[]">
-              <img src="/images/icon-quotes.svg" alt="quote" className="py-4" />Fylo has improved our team productivity by an order of magnitude.
+              <img src="/images/icon-quotes.svg" alt="quote" className="py-4" />
+              Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
               collaboration machine.”
             </p>
